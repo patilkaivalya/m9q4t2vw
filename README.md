@@ -14,8 +14,19 @@ The app selects the latest WINDFOR publication available by 10:00 Europe/London 
 
 Monthly metrics, daily forecast-versus-actual chart, daily MAE, settlement-period table, and CSV export. API routes: /api/health, /api/wind/summary?month=2026-01, /api/wind/series?date=2026-01-15, and /api/wind/export.csv.
 
+## Files and directories
+
+- backend/: FastAPI API, Elexon data matching, and metric calculations.
+- frontend/: React and Vite app, UI source in src/, package files, and development proxy configuration.
+- docs/: customer and technical demo outline.
+- Dockerfile and compose.yaml: container build and local run configuration.
+
 ## AI assistance
 
 OpenAI Codex assisted with API research, implementation, and documentation.
 
-Public source repo: https://github.com/patilkaivalya/m9q4t2vw. A hosted app and demo video are not published yet.
+## Source repository
+
+https://github.com/patilkaivalya/m9q4t2vw
+
+A hosted app and demo video are not published yet.
