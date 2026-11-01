@@ -1,0 +1,7 @@
+services:
+  wind-desk:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      ELEXON_API_BASE: https://data.elexon.co.uk/bmrs/api/v1
